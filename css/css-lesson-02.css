@@ -1,0 +1,50 @@
+/*stylesheet*/
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	background: url('../images/bathroom.jpg');
+	background size: cover;
+	background-repeat: none;
+}
+
+#wrapper {
+  margin: 2em auto;
+  max-width: 960px;
+  padding: 0 20 px;
+}
+
+.article{
+  padding: 20px 0;
+  background-color: #fff;
+
+}
+
+img{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1, p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p{
+	font-weight:300;
+	line-height:1.6;
+	color: #666;
+}
+
+p.byline {
+	color: #666;
+	font-size: 14px;
+}
+
+h1 {
+	margin-top: 0;
+	font-family: 'Lora', serif;
+	font-weight: 900;
+	margin-top: 0;
