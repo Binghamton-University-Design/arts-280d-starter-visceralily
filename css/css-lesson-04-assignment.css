@@ -1,0 +1,35 @@
+/*stylesheet*/
+
+
+body {
+	color: #000;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+#wrapper {
+  margin: 5px auto;
+  max-width: 900px;
+  padding: 0 20 px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 5px;
+  /*grid-template-columns: 1fr 1fr 1fr*/
+  grid-template-columns: repeat( 3, 1fr);
+}
+
+.grid div {
+  padding: 8rem;
+  background-color:rgba(0, 0, 0, 0.1);
+}
+
+.item1 {
+  grid-column: span 3;
+}
+
+#grid2 {
+  margin: 2em auto;
+}
+
