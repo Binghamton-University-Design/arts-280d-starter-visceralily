@@ -1,6 +1,6 @@
 body {
-  background-color: var(--background-color);
-  color: var(--body-color);
+  background-color: #ffffff;
+  color: #;
   font-family: 'Lora', serif; 
   line-height: 1.5;
 }
@@ -32,6 +32,12 @@ h4 {
   margin: 2rem auto;
   max-width: 1220px;
   padding: 0 2rem;
+}
+
+/*MASTHEAD*/
+
+#masthead, #main {
+  margin-bottom: 2rem;
 }
 
 .grid div {
@@ -185,9 +191,14 @@ transition: text-decoration-color .3s ease-in-out;
   height: 70vh;
 }
 
-#work h3, #writing h3 {
+#work h3, #writing h3, #portfolio h3 {
   letter-spacing: 1px;
   margin-bottom: 2rem;
+}
+
+#work h3 a, #writing h3 a, #portfolio h3 a {
+  color: var(--body-color);
+  text-decoration: none;
 }
 
 .work-item {
@@ -264,6 +275,29 @@ transition: text-decoration-color .3s ease-in-out;
   text-decoration-color: var(--body-color); 
 }
 
+/*PORTFOLIO*/
+
+#portfolio {
+  margin-top: 2rem;
+}
+
+#portfolio .work-item {
+  padding-top: calc((9 / 16) * 100%);
+}
+
+#portfolio .work-item .inner .work-inside {
+  opacity: 1;
+}
+
+#portfolio p a {
+  color: var(--body-color);
+  text-decoration-color: var(--body-color);
+  transition: text-decoration-color .3% ease-in-out;
+}
+
+#portfolio p a: hover {
+  text-decoration-color: transparent;
+}
 
 /*FOOTER*/
 
