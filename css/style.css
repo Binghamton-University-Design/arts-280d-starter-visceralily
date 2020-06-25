@@ -1,6 +1,12 @@
+/* vars */
+:root {
+  --background-color: #f6fff8;
+  --body-color: #000;
+}
+
 body {
   background-color: #ffffff;
-  color: #;
+  color: var(--body-color);
   font-family: 'Lora', serif; 
   line-height: 1.5;
 }
