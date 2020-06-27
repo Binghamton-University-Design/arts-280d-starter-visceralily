@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 4.2rem
+  font-size: 4.2em;
 }
 
 h2 {
@@ -41,6 +41,10 @@ h4 {
 }
 
 /*MASTHEAD*/
+
+#main {
+  width:100%;
+}
 
 #masthead, #main {
   margin-bottom: 2rem;
@@ -192,9 +196,7 @@ transition: text-decoration-color .3s ease-in-out;
 /*HOME*/
 
 #intro {
-  display: flex;
-  align-items: center;
-  height: 70vh;
+  width:100%!important;
 }
 
 #work h3, #writing h3, #portfolio h3 {
@@ -359,11 +361,10 @@ transition: text-decoration-color .3s ease-in-out;
 @media all and (min-width: 700px) {
 
   #intro {
-    height: 70vh;
   }
 
   #intro-holder {
-    padding: 0 5em;
+
   }
 
 }
