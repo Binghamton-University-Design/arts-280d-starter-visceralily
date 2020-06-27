@@ -213,7 +213,7 @@ transition: text-decoration-color .3s ease-in-out;
   position: relative;
   width: 100%; 
   padding-top: calc((1 / 1) * 100%);
-  background-color: var(--body-color);
+  background-color: #000;
 }
 
 .work-item .inner {
@@ -337,7 +337,7 @@ transition: text-decoration-color .3s ease-in-out;
     display: block;
   }
   #nav {
-    border-bottom: 1px solid var(--body-color);
+    border-bottom: 1px solid #000;
     padding-bottom: 1rem;
     display: none;
   }
