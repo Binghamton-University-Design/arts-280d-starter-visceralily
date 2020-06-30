@@ -202,6 +202,7 @@ transition: text-decoration-color .3s ease-in-out;
 #work h3, #writing h3, #portfolio h3 {
   letter-spacing: 1px;
   margin-bottom: 2rem;
+  color: var(--body-color);
 }
 
 #work h3 a, #writing h3 a, #portfolio h3 a {
@@ -246,6 +247,7 @@ transition: text-decoration-color .3s ease-in-out;
 
 .writing-item .date-holder {
   margin-bottom: .25em;
+  color: var(--body-color);
 }
 
 .work-item img {
@@ -302,6 +304,20 @@ transition: text-decoration-color .3s ease-in-out;
 
 #portfolio .work-item {
   padding-top: calc((9 / 16) * 100%);
+}
+
+.box {
+  border: 1px solid black;
+  padding: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column: span 10;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
 }
 
 #portfolio .work-item .inner .work-inside {
